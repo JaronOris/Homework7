@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+ul,
+ol {
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+}
+
+li {
+  cursor: pointer;
+  padding: 20px;
+  height: 35px;
+  position: relative;
+}
+
+li:nth-child(odd) {
+  background-color: rgba(100, 100, 100, 0.75);
+}
+
+li input {
+  margin: 0 20px;
+}
+
+li.strike {
+  text-decoration: line-through;
+}
+
+.back {
+  width: 100%;
+  height: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(80, 205, 255);
+}
+
+.load {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(80, 205, 255);
+}
+
+.right {
+  position: absolute;
+  right: 20px;
+}
+
+#addItem {
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+}
+
+#addButton {
+  width: 150px;
+  height: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(80, 205, 255);
+}
+
+.delete {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-holder {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/hero.jpg);
+}
+.site-holder h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 100px;
+}
+.site-holder .list-view {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px black;
+}
+
+/*# sourceMappingURL=styles.css.map */
